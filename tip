@@ -1,0 +1,10 @@
+# Desliga o PC em 60 segundos (cancelável com `shutdown -c`)
+shutdown -h +1 "O PC será desligado em 1 minuto! (Ctrl+C para cancelar)"
+nmap -p 80 --script "vulnerabilidade_fake" localhost  
+echo "EXPLOITANDO... (10%)"  
+sleep 1  
+echo "ROUBANDO DADOS... (40%)"  
+sleep 1  
+echo "INSTALANDO BACKDOOR... (99%)"  
+sleep 1  
+echo "✅ SUCESSO!
